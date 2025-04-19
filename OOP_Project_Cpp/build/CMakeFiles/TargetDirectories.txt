@@ -1,0 +1,3 @@
+/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles/OOP_Project_Cpp.dir
+/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles/edit_cache.dir
+/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles/rebuild_cache.dir
