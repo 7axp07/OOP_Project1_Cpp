@@ -2,32 +2,49 @@
 #define WORLD_H
 
 #include <vector>
+#include <list>
 #include <string>
 #include <ncurses.h>
 #include "Organism.h"
+using namespace std;
 
 class World {
 private:
     int width, height;
-    std::vector<Organism*> organisms;
+    list<Organism*> organisms;
     char** grid;
-    WINDOW* window;       // Ncurses window for the grid
-    WINDOW* statusWindow; // Ncurses window for the status
-    std::string lastAction; // Stores the last action for status display
+    WINDOW* window;      
+    WINDOW* statusWindow; 
+    string lastAction; 
+    static World* instance;
+    int logCount;
+    int turn;
 
     void allocateGrid();
     void deallocateGrid();
     void clearGrid();
+    void clearLog();
 
 public:
     World();
     ~World();
 
-    void startScreen(); // Displays the start screen
+    //functionalities
+    void startScreen(); 
     void addOrganism(Organism* organism);
     void executeTurn();
     void drawWorld();
-    void updateStatus(const std::string& status); // Updates the status window
+    void updateStatus(); 
+    void addLog(Organism* organism, string action);
+    void sortOrganisms();
+    void initialPopulate();
+
+
+    //getsets
+    static World* getInstance();
+    int getWidth();
+    int getHeight();
+    Organism* getOrganismAt(pair<int, int> pos);
 };
 
 #endif // WORLD_H
