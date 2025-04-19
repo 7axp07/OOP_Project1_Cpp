@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Window.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp" "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/main.cpp" "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o.d"
   )
 

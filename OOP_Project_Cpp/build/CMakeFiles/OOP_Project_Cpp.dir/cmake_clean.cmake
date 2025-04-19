@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o"
-  "CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o.d"
+  "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o"
+  "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d"
+  "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o"
+  "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o"
   "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o.d"
   "OOP_Project_Cpp"

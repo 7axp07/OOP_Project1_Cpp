@@ -129,29 +129,53 @@ OOP_Project_Cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/build
 .PHONY : OOP_Project_Cpp/fast
 
-Window.o: Window.cpp.o
-.PHONY : Window.o
+Organism.o: Organism.cpp.o
+.PHONY : Organism.o
 
 # target to build an object file
-Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o
-.PHONY : Window.cpp.o
+Organism.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o
+.PHONY : Organism.cpp.o
 
-Window.i: Window.cpp.i
-.PHONY : Window.i
+Organism.i: Organism.cpp.i
+.PHONY : Organism.i
 
 # target to preprocess a source file
-Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.i
-.PHONY : Window.cpp.i
+Organism.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.i
+.PHONY : Organism.cpp.i
 
-Window.s: Window.cpp.s
-.PHONY : Window.s
+Organism.s: Organism.cpp.s
+.PHONY : Organism.s
 
 # target to generate assembly for a file
-Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.s
-.PHONY : Window.cpp.s
+Organism.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s
+.PHONY : Organism.cpp.s
+
+World.o: World.cpp.o
+.PHONY : World.o
+
+# target to build an object file
+World.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o
+.PHONY : World.cpp.o
+
+World.i: World.cpp.i
+.PHONY : World.i
+
+# target to preprocess a source file
+World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/World.cpp.i
+.PHONY : World.cpp.i
+
+World.s: World.cpp.s
+.PHONY : World.s
+
+# target to generate assembly for a file
+World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/World.cpp.s
+.PHONY : World.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OOP_Project_Cpp"
-	@echo "... Window.o"
-	@echo "... Window.i"
-	@echo "... Window.s"
+	@echo "... Organism.o"
+	@echo "... Organism.i"
+	@echo "... Organism.s"
+	@echo "... World.o"
+	@echo "... World.i"
+	@echo "... World.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

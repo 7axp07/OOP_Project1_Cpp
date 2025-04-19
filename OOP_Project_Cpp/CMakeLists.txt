@@ -9,7 +9,8 @@ project("OOP_Project_Cpp")
 
 add_executable(OOP_Project_Cpp 
     main.cpp 
-    Window.cpp
+    World.cpp
+    Organism.cpp
 )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

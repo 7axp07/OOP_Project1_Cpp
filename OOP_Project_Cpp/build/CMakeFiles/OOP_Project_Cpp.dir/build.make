@@ -83,33 +83,49 @@ CMakeFiles/OOP_Project_Cpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/main.cpp -o CMakeFiles/OOP_Project_Cpp.dir/main.cpp.s
 
-CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
-CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Window.cpp
-CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Window.cpp
+CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp
+CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp
 
-CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Window.cpp > CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.i
+CMakeFiles/OOP_Project_Cpp.dir/World.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/World.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp > CMakeFiles/OOP_Project_Cpp.dir/World.cpp.i
 
-CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Window.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.s
+CMakeFiles/OOP_Project_Cpp.dir/World.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/World.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp -o CMakeFiles/OOP_Project_Cpp.dir/World.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp > CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s
 
 # Object files for target OOP_Project_Cpp
 OOP_Project_Cpp_OBJECTS = \
 "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o" \
-"CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o"
+"CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o"
 
 # External object files for target OOP_Project_Cpp
 OOP_Project_Cpp_EXTERNAL_OBJECTS =
 
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o
-OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Window.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/build.make
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OOP_Project_Cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OOP_Project_Cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OOP_Project_Cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

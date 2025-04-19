@@ -1,12 +1,37 @@
-﻿#include <iostream>
-#include "Window.h"
-using namespace std;
+﻿#include "World.h"
+#include "Organism.h"
+#include <ncurses.h>
 
 int main() {
-    Window mainWindow(80, 24, 0, 0);
-    mainWindow.startGame();
-    mainWindow.initWindow();
-    mainWindow.starterScreen();
-    mainWindow.cleanup();
-    return EXIT_SUCCESS;
+    World world;
+    world.startScreen();
+
+    // Add organisms
+    // Example: world.addOrganism(new Wolf(5, 5, &world));
+    // Example: world.addOrganism(new Grass(10, 10, &world));
+
+    bool running = true;
+    while (running) {
+        world.drawWorld();    
+        world.executeTurn();  
+
+        int ch = getch(); 
+        switch (ch) {
+            case 'p': 
+            case 'P':
+                running = false;
+                break;
+            case KEY_ENTER:
+            case KEY_UP: 
+            case KEY_DOWN:
+            case KEY_LEFT:
+            case KEY_RIGHT:
+                
+                break;
+            default:
+                break;
+        }
+    }
+
+    return 0;
 }
