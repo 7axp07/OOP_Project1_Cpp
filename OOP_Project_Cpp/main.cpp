@@ -3,17 +3,14 @@
 #include <ncurses.h>
 
 int main() {
-    World world;
-    world.startScreen();
-
-    // Add organisms
-    // Example: world.addOrganism(new Wolf(5, 5, &world));
-    // Example: world.addOrganism(new Grass(10, 10, &world));
-
+   // setlocale(LC_ALL, ""); 
+    World* world = World::getInstance(); 
+    world->startScreen();
+    world->initialPopulate();
     bool running = true;
     while (running) {
-        world.drawWorld();    
-        world.executeTurn();  
+        world->drawWorld();    
+        world->executeTurn();
 
         int ch = getch(); 
         switch (ch) {
@@ -22,6 +19,7 @@ int main() {
                 running = false;
                 break;
             case KEY_ENTER:
+                break;
             case KEY_UP: 
             case KEY_DOWN:
             case KEY_LEFT:
@@ -32,6 +30,6 @@ int main() {
                 break;
         }
     }
-
+    endwin();
     return 0;
 }

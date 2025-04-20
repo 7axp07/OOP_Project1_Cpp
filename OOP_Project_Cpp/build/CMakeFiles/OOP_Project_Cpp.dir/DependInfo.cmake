@@ -8,7 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Animal.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Dandelion.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Grass.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp" "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/main.cpp" "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o.d"
   )

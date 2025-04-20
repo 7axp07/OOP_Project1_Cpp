@@ -111,11 +111,116 @@ CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s
 
+CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Animal.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Animal.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Animal.cpp > CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Animal.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp > CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Grass.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Grass.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Grass.cpp > CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Grass.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Dandelion.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Dandelion.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Dandelion.cpp > CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Dandelion.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.cpp > CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.cpp > CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.s
+
+CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/flags.make
+CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o: /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp
+CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o: CMakeFiles/OOP_Project_Cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o -MF CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o.d -o CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o -c /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp
+
+CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp > CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.i
+
+CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp -o CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.s
+
 # Object files for target OOP_Project_Cpp
 OOP_Project_Cpp_OBJECTS = \
 "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o" \
 "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o" \
-"CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o"
+"CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o" \
+"CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o"
 
 # External object files for target OOP_Project_Cpp
 OOP_Project_Cpp_EXTERNAL_OBJECTS =
@@ -123,9 +228,16 @@ OOP_Project_Cpp_EXTERNAL_OBJECTS =
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o
+OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/build.make
 OOP_Project_Cpp: CMakeFiles/OOP_Project_Cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OOP_Project_Cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable OOP_Project_Cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OOP_Project_Cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,10 +1,26 @@
 #include "World.h"
+#include "Organism.h"
+#include "Grass.h"
+#include "Dandelion.h"
+#include "Guarana.h"
+#include "Wolfberry.h"
+#include "Hogweed.h"
 #include <iostream>
+#include <ncurses.h>
 
 World::World() : width(20), height(10), window(nullptr), statusWindow(nullptr), logCount(0), turn(0) { 
     initscr();
+    start_color();
+    initializeColors();
     noecho();
     curs_set(0);
+    allocateGrid(); 
+    clearGrid();   
+
+    window = newwin(height + 2, width + 2, 0, 0); 
+    statusWindow = newwin(10, 50, height + 2, 0); 
+    wrefresh(window);
+    wrefresh(statusWindow);
 }
 
 World::~World() {
@@ -21,6 +37,18 @@ World::~World() {
         delwin(statusWindow);
     }
     endwin();
+    std::cout << "Terminal restored." << std::endl;
+}
+
+void World::initializeColors() {
+    start_color();
+    init_pair(1, COLOR_RED, COLOR_BLACK);
+    init_pair(2, COLOR_GREEN, COLOR_BLACK);
+    init_pair(3, COLOR_YELLOW, COLOR_BLACK);
+    init_pair(4, COLOR_BLUE, COLOR_BLACK);
+    init_pair(5, COLOR_CYAN, COLOR_BLACK);
+    init_pair(6, COLOR_MAGENTA, COLOR_BLACK);
+    init_pair(7, COLOR_WHITE, COLOR_BLACK);
 }
 
 void World::startScreen() {
@@ -78,6 +106,7 @@ void World::deallocateGrid() {
             delete[] grid[i];
         }
         delete[] grid;
+        grid = nullptr;
     }
 }
 
@@ -92,23 +121,28 @@ void World::clearLog() {
     werase(statusWindow);
     mvwprintw(statusWindow, 1, 1, "Author: AP, Index: 203194");
     mvwprintw(statusWindow, 2, 1, "^ v < > - Move, P - Quit, Enter - Next Turn");
+    mvwprintw(statusWindow, 3, 1, "Turn: %d", turn); 
     logCount = 0;
-    //mvwprintw(statusWindow, 4, 1, "Action: ");
     wrefresh(statusWindow);
 }
 void World::addLog(Organism* source, string log) {
     string sourceName = typeid(*source).name(); 
-    sourceName = source->draw() + string("(") + sourceName.substr(6) + ")"; 
+    sourceName = source->getSymbol(); //+ string("(") + sourceName.substr(6) + ")"; 
 
     logCount++; 
     if (logCount > 5) { 
         clearLog();
     }
-    mvwprintw(statusWindow, 3 + logCount, 1, "%s %s", sourceName.c_str(), log.c_str());
+    mvwprintw(statusWindow, 4 + logCount, 1, "%s %s", sourceName.c_str(), log.c_str());
     wrefresh(statusWindow);
 }
 
 void World::addOrganism(Organism* organism) {
+    for (Organism* existing : organisms) {
+        if (existing == organism) {
+            return;
+        }
+    }
     organisms.push_back(organism);
 }
 
@@ -130,18 +164,31 @@ void World::executeTurn() {
 void World::updateStatus() {
     mvwprintw(statusWindow, 1, 1, "Author: AP, Index: 203194");
     mvwprintw(statusWindow, 2, 1, "^ v < > - Move, P - Quit, Enter - Next Turn");
-   // mvwprintw(statusWindow, 3, 1, "Action: %s", status.c_str());
+    mvwprintw(statusWindow, 3, 1, "Turn: %d", turn); 
     wrefresh(statusWindow);
 }
 
 void World::drawWorld() {
     clearGrid();
     for (Organism* organism : organisms) {
-        grid[organism->getY()][organism->getX()] = organism->draw();
+        int x = organism->getX();
+        int y = organism->getY();
+        if (x >= 0 && x < width && y >= 0 && y < height) {
+            grid[y][x] = organism->getSymbol();
+        }
     }
+
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < width; ++j) {
-            mvwaddch(window, i + 1, j + 1, grid[i][j]);
+            char symbol = grid[i][j];
+            int colorPair = 7; 
+            Organism* organism = getOrganismAt({j, i});
+            if (organism) {
+                colorPair = organism->getColor();
+            }
+            wattron(window, COLOR_PAIR(colorPair));
+            mvwaddch(window, i + 1, j + 1, symbol);
+            wattroff(window, COLOR_PAIR(colorPair));
         }
     }
     box(window, 0, 0);
@@ -149,9 +196,13 @@ void World::drawWorld() {
     updateStatus();
 }
 
+World* World::instance = nullptr;
+
 World* World::getInstance() {
-    static World instance;
-    return &instance;
+    if (instance == nullptr) {
+        instance = new World(); 
+    }
+    return instance;
 }
 int World::getWidth() {
     return width;
@@ -161,6 +212,9 @@ int World::getHeight() {
 }
 
 Organism* World::getOrganismAt(pair<int, int> pos) {
+    if (pos.first < 0 || pos.first >= width || pos.second < 0 || pos.second >= height) {
+        return nullptr; 
+    }
     for (Organism* organism : organisms) {
         if (organism->getX() == pos.first && organism->getY() == pos.second) {
             return organism;
@@ -168,9 +222,15 @@ Organism* World::getOrganismAt(pair<int, int> pos) {
     }
     return nullptr;
 }
+void World::removeOrganism(Organism* organism) {
+    organisms.remove(organism); 
+}
 
-void initialPopulate() {
-    // Add initial organisms to the world
-    // Example: addOrganism(new Wolf(5, 5, this));
-    // Example: addOrganism(new Grass(10, 10, this));
+void World::initialPopulate() {
+
+    new Grass(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+    new Guarana(rand()% width, rand()% height);
+    new Wolfberry(rand()% width, rand()% height);
+    new Hogweed(rand()% width, rand()% height);
 }

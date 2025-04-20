@@ -1,4 +1,3 @@
-#pragma once
 #include <string>
 #include <iostream>
 #include "Organism.h"
@@ -14,6 +13,7 @@ Organism::Organism(char symbol, int strength, int initiative, int x, int y) {
     this->age = 0;
     world->addOrganism(this);
 }
+
 Organism::Organism(const Organism& a) {
     this->world = a.world;
     this->symbol = a.symbol;
@@ -85,19 +85,21 @@ int Organism::getY() {
     return position.second;
 }
 
-bool Organism::setPosition(pair<int, int> pos, bool isEmpty) {
-    if (pos.first < 0 || pos.first >= world->getHeight() || pos.second < 0 || pos.second >= world->getWidth()) {
-        return false;
-    }
-    if (isEmpty && world->getOrganismAt(pos) != nullptr) {
-        return false;
-    }
-    prevPosition = position;
-    Organism* other = world->getOrganismAt(pos);
-    this->position = pos;
 
+
+bool Organism::setPosition(pair<int, int> pos, bool requireEmpty) {
+    if (pos.first < 0 || pos.first >= world->getWidth() || pos.second < 0 || pos.second >= world->getHeight()) {
+        return false; 
+    }
+    if (requireEmpty && world->getOrganismAt(pos) != nullptr) {
+        return false; 
+    }
+
+    prevPosition = position;
+    position = pos;
+    Organism* other = world->getOrganismAt(pos);
     if (other != nullptr) {
-        other->collision(this);
+        other->collision(this); 
     }
     return true;
 }
@@ -115,6 +117,11 @@ void Organism::kill() {
    position = { -1, -1 };
    strength = -1;
    initiative = -1;
+   world->removeOrganism(this);
+}
+
+int Organism::getColor() {
+    return 7; 
 }
 
 

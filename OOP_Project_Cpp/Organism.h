@@ -14,21 +14,31 @@ class Organism {
     int age;
 protected:
     World* world;
-    const int movement[4][2] = { {0,1},{1,0},{0,-1},{-1,0} };
+    const int movement[8][2] = { 
+        {-1, 0},    // up
+        {-1, 1},    // up right
+        {0, 1},     // right
+        {1, 1},     // down right
+        {1, 0},     // down
+        {1, -1},    // down left
+        {0, -1},    // left
+        {-1, -1}    // up left
+    };
 
 public:
     Organism(char symbol, int strength, int initiative, int x, int y);
     Organism(const Organism& a);
     virtual void action() = 0;
     virtual void collision(Organism* other) = 0;
-    virtual char draw() const = 0;
     virtual string toString();
     virtual bool isRunningAway();
+    virtual Organism* child() = 0;
 
     char getSymbol();
     int getInitiative();
     int getStrength();
     int getAge();
+    virtual int getColor();
 
     void increaseAge(int value = 1);
     void increaseStrength(int value);

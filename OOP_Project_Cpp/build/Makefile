@@ -129,6 +129,126 @@ OOP_Project_Cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/build
 .PHONY : OOP_Project_Cpp/fast
 
+Animal.o: Animal.cpp.o
+.PHONY : Animal.o
+
+# target to build an object file
+Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.o
+.PHONY : Animal.cpp.o
+
+Animal.i: Animal.cpp.i
+.PHONY : Animal.i
+
+# target to preprocess a source file
+Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.i
+.PHONY : Animal.cpp.i
+
+Animal.s: Animal.cpp.s
+.PHONY : Animal.s
+
+# target to generate assembly for a file
+Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.s
+.PHONY : Animal.cpp.s
+
+Dandelion.o: Dandelion.cpp.o
+.PHONY : Dandelion.o
+
+# target to build an object file
+Dandelion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.o
+.PHONY : Dandelion.cpp.o
+
+Dandelion.i: Dandelion.cpp.i
+.PHONY : Dandelion.i
+
+# target to preprocess a source file
+Dandelion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.i
+.PHONY : Dandelion.cpp.i
+
+Dandelion.s: Dandelion.cpp.s
+.PHONY : Dandelion.s
+
+# target to generate assembly for a file
+Dandelion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.s
+.PHONY : Dandelion.cpp.s
+
+Grass.o: Grass.cpp.o
+.PHONY : Grass.o
+
+# target to build an object file
+Grass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o
+.PHONY : Grass.cpp.o
+
+Grass.i: Grass.cpp.i
+.PHONY : Grass.i
+
+# target to preprocess a source file
+Grass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.i
+.PHONY : Grass.cpp.i
+
+Grass.s: Grass.cpp.s
+.PHONY : Grass.s
+
+# target to generate assembly for a file
+Grass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.s
+.PHONY : Grass.cpp.s
+
+Guarana.o: Guarana.cpp.o
+.PHONY : Guarana.o
+
+# target to build an object file
+Guarana.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o
+.PHONY : Guarana.cpp.o
+
+Guarana.i: Guarana.cpp.i
+.PHONY : Guarana.i
+
+# target to preprocess a source file
+Guarana.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.i
+.PHONY : Guarana.cpp.i
+
+Guarana.s: Guarana.cpp.s
+.PHONY : Guarana.s
+
+# target to generate assembly for a file
+Guarana.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.s
+.PHONY : Guarana.cpp.s
+
+Hogweed.o: Hogweed.cpp.o
+.PHONY : Hogweed.o
+
+# target to build an object file
+Hogweed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o
+.PHONY : Hogweed.cpp.o
+
+Hogweed.i: Hogweed.cpp.i
+.PHONY : Hogweed.i
+
+# target to preprocess a source file
+Hogweed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.i
+.PHONY : Hogweed.cpp.i
+
+Hogweed.s: Hogweed.cpp.s
+.PHONY : Hogweed.s
+
+# target to generate assembly for a file
+Hogweed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.s
+.PHONY : Hogweed.cpp.s
+
 Organism.o: Organism.cpp.o
 .PHONY : Organism.o
 
@@ -152,6 +272,54 @@ Organism.s: Organism.cpp.s
 Organism.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.s
 .PHONY : Organism.cpp.s
+
+Plant.o: Plant.cpp.o
+.PHONY : Plant.o
+
+# target to build an object file
+Plant.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o
+.PHONY : Plant.cpp.o
+
+Plant.i: Plant.cpp.i
+.PHONY : Plant.i
+
+# target to preprocess a source file
+Plant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.i
+.PHONY : Plant.cpp.i
+
+Plant.s: Plant.cpp.s
+.PHONY : Plant.s
+
+# target to generate assembly for a file
+Plant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.s
+.PHONY : Plant.cpp.s
+
+Wolfberry.o: Wolfberry.cpp.o
+.PHONY : Wolfberry.o
+
+# target to build an object file
+Wolfberry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o
+.PHONY : Wolfberry.cpp.o
+
+Wolfberry.i: Wolfberry.cpp.i
+.PHONY : Wolfberry.i
+
+# target to preprocess a source file
+Wolfberry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.i
+.PHONY : Wolfberry.cpp.i
+
+Wolfberry.s: Wolfberry.cpp.s
+.PHONY : Wolfberry.s
+
+# target to generate assembly for a file
+Wolfberry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.s
+.PHONY : Wolfberry.cpp.s
 
 World.o: World.cpp.o
 .PHONY : World.o
@@ -210,9 +378,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OOP_Project_Cpp"
+	@echo "... Animal.o"
+	@echo "... Animal.i"
+	@echo "... Animal.s"
+	@echo "... Dandelion.o"
+	@echo "... Dandelion.i"
+	@echo "... Dandelion.s"
+	@echo "... Grass.o"
+	@echo "... Grass.i"
+	@echo "... Grass.s"
+	@echo "... Guarana.o"
+	@echo "... Guarana.i"
+	@echo "... Guarana.s"
+	@echo "... Hogweed.o"
+	@echo "... Hogweed.i"
+	@echo "... Hogweed.s"
 	@echo "... Organism.o"
 	@echo "... Organism.i"
 	@echo "... Organism.s"
+	@echo "... Plant.o"
+	@echo "... Plant.i"
+	@echo "... Plant.s"
+	@echo "... Wolfberry.o"
+	@echo "... Wolfberry.i"
+	@echo "... Wolfberry.s"
 	@echo "... World.o"
 	@echo "... World.i"
 	@echo "... World.s"

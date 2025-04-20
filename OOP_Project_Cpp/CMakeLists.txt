@@ -11,6 +11,13 @@ add_executable(OOP_Project_Cpp
     main.cpp 
     World.cpp
     Organism.cpp
+    Animal.cpp
+    Plant.cpp
+    Grass.cpp
+    Dandelion.cpp
+    Guarana.cpp
+    Wolfberry.cpp
+    Hogweed.cpp
 )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

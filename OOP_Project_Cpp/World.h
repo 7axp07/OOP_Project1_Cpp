@@ -38,13 +38,16 @@ public:
     void addLog(Organism* organism, string action);
     void sortOrganisms();
     void initialPopulate();
+    void initializeColors();
 
 
     //getsets
     static World* getInstance();
+    static World* getInstance(int width, int height);
     int getWidth();
     int getHeight();
     Organism* getOrganismAt(pair<int, int> pos);
+    void removeOrganism(Organism* organism);
 };
 
 #endif // WORLD_H
