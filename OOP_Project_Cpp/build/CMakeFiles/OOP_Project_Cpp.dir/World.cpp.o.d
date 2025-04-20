@@ -142,6 +142,8 @@ CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o: \
  /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.h \
  /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.h \
  /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.h \
+ /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolf.h \
+ /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Animal.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

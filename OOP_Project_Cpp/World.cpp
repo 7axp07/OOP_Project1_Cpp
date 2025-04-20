@@ -5,6 +5,7 @@
 #include "Guarana.h"
 #include "Wolfberry.h"
 #include "Hogweed.h"
+#include "Wolf.h"
 #include <iostream>
 #include <ncurses.h>
 
@@ -49,6 +50,7 @@ void World::initializeColors() {
     init_pair(5, COLOR_CYAN, COLOR_BLACK);
     init_pair(6, COLOR_MAGENTA, COLOR_BLACK);
     init_pair(7, COLOR_WHITE, COLOR_BLACK);
+    init_pair(8, COLOR_BLACK, COLOR_WHITE);
 }
 
 void World::startScreen() {
@@ -126,11 +128,12 @@ void World::clearLog() {
     wrefresh(statusWindow);
 }
 void World::addLog(Organism* source, string log) {
-    string sourceName = typeid(*source).name(); 
-    sourceName = source->getSymbol(); //+ string("(") + sourceName.substr(6) + ")"; 
-
+    if (source == nullptr) {
+        return; 
+    }
+    string sourceName(1, source->getSymbol());
     logCount++; 
-    if (logCount > 5) { 
+    if (logCount > 10) { 
         clearLog();
     }
     mvwprintw(statusWindow, 4 + logCount, 1, "%s %s", sourceName.c_str(), log.c_str());
@@ -204,9 +207,11 @@ World* World::getInstance() {
     }
     return instance;
 }
+
 int World::getWidth() {
     return width;
 }
+
 int World::getHeight() {
     return height;
 }
@@ -222,6 +227,7 @@ Organism* World::getOrganismAt(pair<int, int> pos) {
     }
     return nullptr;
 }
+
 void World::removeOrganism(Organism* organism) {
     organisms.remove(organism); 
 }
@@ -233,4 +239,13 @@ void World::initialPopulate() {
     new Guarana(rand()% width, rand()% height);
     new Wolfberry(rand()% width, rand()% height);
     new Hogweed(rand()% width, rand()% height);
+;
+ 
+    new Guarana(rand()% width, rand()% height);
+    new Wolfberry(rand()% width, rand()% height);
+    new Guarana(rand()% width, rand()% height);
+    new Wolfberry(rand()% width, rand()% height);
+    new Guarana(rand()% width, rand()% height);
+    new Wolfberry(rand()% width, rand()% height);
+ 
 }

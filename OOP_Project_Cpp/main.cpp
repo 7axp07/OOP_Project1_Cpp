@@ -1,9 +1,11 @@
 ﻿#include "World.h"
 #include "Organism.h"
 #include <ncurses.h>
+#include <cstdlib>
+#include <ctime>
 
 int main() {
-   // setlocale(LC_ALL, ""); 
+    srand(time(NULL));
     World* world = World::getInstance(); 
     world->startScreen();
     world->initialPopulate();
@@ -24,9 +26,6 @@ int main() {
             case KEY_DOWN:
             case KEY_LEFT:
             case KEY_RIGHT:
-                
-                break;
-            default:
                 break;
         }
     }

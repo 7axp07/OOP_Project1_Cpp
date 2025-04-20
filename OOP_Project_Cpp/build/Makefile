@@ -297,6 +297,30 @@ Plant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.s
 .PHONY : Plant.cpp.s
 
+Wolf.o: Wolf.cpp.o
+.PHONY : Wolf.o
+
+# target to build an object file
+Wolf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.o
+.PHONY : Wolf.cpp.o
+
+Wolf.i: Wolf.cpp.i
+.PHONY : Wolf.i
+
+# target to preprocess a source file
+Wolf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.i
+.PHONY : Wolf.cpp.i
+
+Wolf.s: Wolf.cpp.s
+.PHONY : Wolf.s
+
+# target to generate assembly for a file
+Wolf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.s
+.PHONY : Wolf.cpp.s
+
 Wolfberry.o: Wolfberry.cpp.o
 .PHONY : Wolfberry.o
 
@@ -399,6 +423,9 @@ help:
 	@echo "... Plant.o"
 	@echo "... Plant.i"
 	@echo "... Plant.s"
+	@echo "... Wolf.o"
+	@echo "... Wolf.i"
+	@echo "... Wolf.s"
 	@echo "... Wolfberry.o"
 	@echo "... Wolfberry.i"
 	@echo "... Wolfberry.s"

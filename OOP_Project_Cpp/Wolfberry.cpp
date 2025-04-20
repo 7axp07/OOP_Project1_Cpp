@@ -13,5 +13,7 @@ Organism* Wolfberry::child() {
 }
 
 void Wolfberry::collision(Organism* other) {
-    
+    world->addLog(this, "poisoned " + string(1, other->getSymbol()));
+    other->kill(); 
+    kill();
 }

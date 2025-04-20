@@ -49,7 +49,7 @@ public:
     //positon stuff
     int getX();
     int getY();
-    bool setPosition(pair<int, int> pos, bool isEmpty);
+    virtual bool setPosition(pair<int, int> pos, bool isEmpty);
     void goBack();
 
 };

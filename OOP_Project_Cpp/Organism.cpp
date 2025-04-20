@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Organism.h"
 #include "World.h"
+#include "Plant.h"
 using namespace std;
 
 Organism::Organism(char symbol, int strength, int initiative, int x, int y) {
@@ -96,8 +97,14 @@ bool Organism::setPosition(pair<int, int> pos, bool requireEmpty) {
     }
 
     prevPosition = position;
-    position = pos;
     Organism* other = world->getOrganismAt(pos);
+    this->position = pos;
+    if (dynamic_cast<Plant*>(this)) {
+        world->addLog(this, "spread to " + to_string(pos.first) + "," + to_string(pos.second));
+    }
+    else {
+        world->addLog(this, "moved to " + to_string(pos.first) + "," + to_string(pos.second));
+    }
     if (other != nullptr) {
         other->collision(this); 
     }
@@ -117,7 +124,6 @@ void Organism::kill() {
    position = { -1, -1 };
    strength = -1;
    initiative = -1;
-   world->removeOrganism(this);
 }
 
 int Organism::getColor() {

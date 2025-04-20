@@ -1,7 +1,7 @@
 #include "Guarana.h"
 #include "World.h"
 
-Guarana::Guarana(int x, int y) : Plant('o', 0, x, y) {
+Guarana::Guarana(int x, int y) : Plant('g', 0, x, y) {
 }
 
 int Guarana::getColor() {
@@ -13,7 +13,7 @@ Organism* Guarana::child() {
 }
 
 void Guarana::collision(Organism* other) {
-    world->addLog(this, "strengthened " + other->getSymbol());
     other->increaseStrength(3);
+    world->addLog(this, "strengthened " + std::string(1, other->getSymbol()));
     kill();
 }

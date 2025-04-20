@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolf.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Wolfberry.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/World.cpp" "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/main.cpp" "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/main.cpp.o.d"

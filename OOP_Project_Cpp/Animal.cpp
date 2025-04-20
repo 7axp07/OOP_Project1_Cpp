@@ -1,5 +1,6 @@
 #include "Animal.h"
 #include "World.h"
+#include "Plant.h"
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -12,7 +13,7 @@ Animal::Animal(char symbol, int strenght, int initiative, int x, int y) : Organi
 void Animal::action() {
     increaseAge();
     int mv = rand() % 8;
-    while (!setPosition({ getX() + movement[mv][0], getY() + movement[mv][1] }, true)) {
+    while (!setPosition({ getX() + movement[mv][0], getY() + movement[mv][1] }, false)) {
         mv++;
         mv %= 8;
     }
@@ -26,7 +27,7 @@ void Animal::collision(Organism* other) {
         if (getAge()<2 || other->getAge()<2) {
             return;
         }
-        world->addLog(this, "Reproduction." );
+        world->addLog(this, " reproduction..." );
         auto child = dynamic_cast<Animal*>(this)->child();
         int mv = rand() % 8;
         while (!child->setPosition({ getX() + movement[mv][0], getY() + movement[mv][1] }, true)) {

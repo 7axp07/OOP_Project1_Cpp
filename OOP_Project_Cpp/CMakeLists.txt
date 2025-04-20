@@ -18,6 +18,7 @@ add_executable(OOP_Project_Cpp
     Guarana.cpp
     Wolfberry.cpp
     Hogweed.cpp
+    Wolf.cpp
 )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
