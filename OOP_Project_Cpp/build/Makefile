@@ -153,6 +153,30 @@ Animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
 
+Antylopa.o: Antylopa.cpp.o
+.PHONY : Antylopa.o
+
+# target to build an object file
+Antylopa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Antylopa.cpp.o
+.PHONY : Antylopa.cpp.o
+
+Antylopa.i: Antylopa.cpp.i
+.PHONY : Antylopa.i
+
+# target to preprocess a source file
+Antylopa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Antylopa.cpp.i
+.PHONY : Antylopa.cpp.i
+
+Antylopa.s: Antylopa.cpp.s
+.PHONY : Antylopa.s
+
+# target to generate assembly for a file
+Antylopa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Antylopa.cpp.s
+.PHONY : Antylopa.cpp.s
+
 Dandelion.o: Dandelion.cpp.o
 .PHONY : Dandelion.o
 
@@ -176,6 +200,30 @@ Dandelion.s: Dandelion.cpp.s
 Dandelion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Dandelion.cpp.s
 .PHONY : Dandelion.cpp.s
+
+Fox.o: Fox.cpp.o
+.PHONY : Fox.o
+
+# target to build an object file
+Fox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Fox.cpp.o
+.PHONY : Fox.cpp.o
+
+Fox.i: Fox.cpp.i
+.PHONY : Fox.i
+
+# target to preprocess a source file
+Fox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Fox.cpp.i
+.PHONY : Fox.cpp.i
+
+Fox.s: Fox.cpp.s
+.PHONY : Fox.s
+
+# target to generate assembly for a file
+Fox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Fox.cpp.s
+.PHONY : Fox.cpp.s
 
 Grass.o: Grass.cpp.o
 .PHONY : Grass.o
@@ -297,6 +345,30 @@ Plant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.s
 .PHONY : Plant.cpp.s
 
+Sheep.o: Sheep.cpp.o
+.PHONY : Sheep.o
+
+# target to build an object file
+Sheep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.o
+.PHONY : Sheep.cpp.o
+
+Sheep.i: Sheep.cpp.i
+.PHONY : Sheep.i
+
+# target to preprocess a source file
+Sheep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.i
+.PHONY : Sheep.cpp.i
+
+Sheep.s: Sheep.cpp.s
+.PHONY : Sheep.s
+
+# target to generate assembly for a file
+Sheep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.s
+.PHONY : Sheep.cpp.s
+
 Wolf.o: Wolf.cpp.o
 .PHONY : Wolf.o
 
@@ -405,9 +477,15 @@ help:
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
+	@echo "... Antylopa.o"
+	@echo "... Antylopa.i"
+	@echo "... Antylopa.s"
 	@echo "... Dandelion.o"
 	@echo "... Dandelion.i"
 	@echo "... Dandelion.s"
+	@echo "... Fox.o"
+	@echo "... Fox.i"
+	@echo "... Fox.s"
 	@echo "... Grass.o"
 	@echo "... Grass.i"
 	@echo "... Grass.s"
@@ -423,6 +501,9 @@ help:
 	@echo "... Plant.o"
 	@echo "... Plant.i"
 	@echo "... Plant.s"
+	@echo "... Sheep.o"
+	@echo "... Sheep.i"
+	@echo "... Sheep.s"
 	@echo "... Wolf.o"
 	@echo "... Wolf.i"
 	@echo "... Wolf.s"

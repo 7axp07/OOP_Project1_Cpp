@@ -41,15 +41,15 @@ void Plant::collision(Organism* other) {
         return;
     }
     if (other->getStrength() < this->getStrength()) {
-        world->addLog(this, "poisoned " + other->getSymbol());
+        world->addLog(this, "poisoned " + string(1, other->getSymbol()));
         other->kill();
     }
     else if (other->getStrength() > this->getStrength()) {
-        world->addLog(this, "trampled by " + other->getSymbol());
+        world->addLog(this, "trampled by " + string(1, other->getSymbol()));
         this->kill();
     }
     else {
-        world->addLog(this, "Draw with " + other->getSymbol());
+        world->addLog(this, "Draw with " + string(1, other->getSymbol()));
         this->kill();
         other->kill();
     }

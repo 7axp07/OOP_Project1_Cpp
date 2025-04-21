@@ -14,6 +14,6 @@ Organism* Guarana::child() {
 
 void Guarana::collision(Organism* other) {
     other->increaseStrength(3);
-    world->addLog(this, "strengthened " + std::string(1, other->getSymbol()));
+    world->addLog(this, " strengthened " + std::string(1, other->getSymbol()));
     kill();
 }

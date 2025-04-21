@@ -33,7 +33,7 @@ void Animal::collision(Organism* other) {
         while (!child->setPosition({ getX() + movement[mv][0], getY() + movement[mv][1] }, true)) {
             mv++;
             if (mv > 8) {
-                world->addLog(this, "Reproduction failed. No space :( .");
+                world->addLog(this, " Reproduction failed. No space :( .");
                 return;
             }
         }
@@ -42,15 +42,15 @@ void Animal::collision(Organism* other) {
         return;
     }
     else if (getStrength() > other->getStrength()) {
-        world->addLog(this, " killed " + other->getSymbol());
+        world->addLog(this, " killed " + string(1, other->getSymbol()));
         other->kill();
     }
     else if (getStrength() < other->getStrength()) {
-        world->addLog(this, " killed by " + other->getSymbol());
+        world->addLog(this, " killed by " + string(1, other->getSymbol()));
         kill();
     }
     else {
-        world->addLog(this, "Draw with " + other->getSymbol());
+        world->addLog(this, "Draw with " + string(1, other->getSymbol()));
         kill();
         other->kill();
     }

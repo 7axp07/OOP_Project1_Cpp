@@ -19,6 +19,9 @@ add_executable(OOP_Project_Cpp
     Wolfberry.cpp
     Hogweed.cpp
     Wolf.cpp
+    Sheep.cpp
+    Fox.cpp
+    Antylopa.cpp
 )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

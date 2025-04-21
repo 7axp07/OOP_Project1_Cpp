@@ -6,6 +6,10 @@
 #include "Wolfberry.h"
 #include "Hogweed.h"
 #include "Wolf.h"
+#include "Sheep.h"
+#include "Fox.h"
+#include "Antylopa.h"
+
 #include <iostream>
 #include <ncurses.h>
 
@@ -51,6 +55,8 @@ void World::initializeColors() {
     init_pair(6, COLOR_MAGENTA, COLOR_BLACK);
     init_pair(7, COLOR_WHITE, COLOR_BLACK);
     init_pair(8, COLOR_BLACK, COLOR_WHITE);
+    init_pair(9, COLOR_YELLOW, COLOR_RED);
+    init_pair(10, COLOR_RED, COLOR_YELLOW);
 }
 
 void World::startScreen() {
@@ -234,18 +240,6 @@ void World::removeOrganism(Organism* organism) {
 
 void World::initialPopulate() {
 
-    new Grass(rand()% width, rand()% height);
-    new Dandelion(rand()% width, rand()% height);
-    new Guarana(rand()% width, rand()% height);
-    new Wolfberry(rand()% width, rand()% height);
-    new Hogweed(rand()% width, rand()% height);
-;
- 
-    new Guarana(rand()% width, rand()% height);
-    new Wolfberry(rand()% width, rand()% height);
-    new Guarana(rand()% width, rand()% height);
-    new Wolfberry(rand()% width, rand()% height);
-    new Guarana(rand()% width, rand()% height);
-    new Wolfberry(rand()% width, rand()% height);
- 
+    new Antylopa(rand()% width, rand()% height);
+
 }
