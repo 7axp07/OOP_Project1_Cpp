@@ -9,6 +9,7 @@
 #include "Sheep.h"
 #include "Fox.h"
 #include "Antylopa.h"
+#include "Turtle.h"
 
 #include <iostream>
 #include <ncurses.h>
@@ -57,6 +58,7 @@ void World::initializeColors() {
     init_pair(8, COLOR_BLACK, COLOR_WHITE);
     init_pair(9, COLOR_YELLOW, COLOR_RED);
     init_pair(10, COLOR_RED, COLOR_YELLOW);
+    init_pair(11, COLOR_BLACK, COLOR_GREEN);
 }
 
 void World::startScreen() {
@@ -241,5 +243,12 @@ void World::removeOrganism(Organism* organism) {
 void World::initialPopulate() {
 
     new Antylopa(rand()% width, rand()% height);
+    new Fox(rand()% width, rand()% height);
+    new Grass(rand()% width, rand()% height);
+    new Turtle(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+    new Guarana(rand()% width, rand()% height);
+    new Wolf(rand()% width, rand()% height);
+    new Sheep(rand()% width, rand()% height);
 
 }

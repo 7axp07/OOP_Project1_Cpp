@@ -1,18 +1,0 @@
-[?1049h[22;0;0t[1;43r(B[m[4l[?7h[?25l[H[2J[13d[2d Simulation game :)[3d - Arrow keys to move Human[4d - 'p' to quit[5d - 'e' for ability[6d - Enter for next turn[8d Enter world width (5-40): [9d Enter world height (5-25): ^[[A[10d[11d Press any key to start...[H[2J[13dAdded organism: 8Organism;5;5;0;0;0;
-[H(0[0mlq[19bk(B[2d(0[0mx(B[2;22H(0[0mx(B[3d(0[0mx(B[3;22H(0[0mx(B[4d(0[0mx(B[4;22H(0[0mx(B[5d(0[0mx(B[5;22H(0[0mx(B[6d(0[0mx(B[6;22H(0[0mx(B[7d(0[0mx(B     w[7;22H(0[0mx(B[8d(0[0mx(B[8;22H(0[0mx(B[9d(0[0mx(B[9;22H(0[0mx(B[10d(0[0mx(B[10;22H(0[0mx(B[11d(0[0mx(B[11;22H(0[0mx(B[12d(0[0mmq[19bj(B[A(0[0m(B[14d Author: AP, Index: 203194[15d ^ v < > - Move, P - Quit, Enter - Next Turn[16d Turn: 0Added organism: 8Organism;5;5;0;0;0;
-Organism already exists in the list!
-[18d w() Spread its seeds!Added organism: 8Organism;4;4;0;0;0;
-Organism already exists in the list!
-[19d w() Spread its seeds!Added organism: 8Organism;4;3;0;0;0;
-Organism already exists in the list!
-[20d w() Spread its seeds!Added organism: 8Organism;3;4;0;0;0;
-Organism already exists in the list!
-[21d w() Spread its seeds!Added organism: 8Organism;4;5;0;0;0;
-Organism already exists in the list!
-[22d w() Spread its seeds!Added organism: 8Organism;3;6;0;0;0;
-Organism already exists in the list!
-[18d[J[16;8H1[17d w() Spread its seeds!Added organism: 8Organism;2;5;0;0;0;
-Organism already exists in the list!
-[18d w() Spread its seeds!Added organism: 8Organism;2;6;0;0;0;
-[19d w() Organism already exists in the list!
-[20d w() Spread its seeds!

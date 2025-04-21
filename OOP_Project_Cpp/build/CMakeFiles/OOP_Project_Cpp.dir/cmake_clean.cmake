@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.o"
   "CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.o.d"
+  "CMakeFiles/OOP_Project_Cpp.dir/Turtle.cpp.o"
+  "CMakeFiles/OOP_Project_Cpp.dir/Turtle.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.o"
   "CMakeFiles/OOP_Project_Cpp.dir/Wolf.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/Wolfberry.cpp.o"

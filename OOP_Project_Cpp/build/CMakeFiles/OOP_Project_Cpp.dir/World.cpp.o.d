@@ -147,6 +147,7 @@ CMakeFiles/OOP_Project_Cpp.dir/World.cpp.o: \
  /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Sheep.h \
  /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Fox.h \
  /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Antylopa.h \
+ /home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Turtle.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

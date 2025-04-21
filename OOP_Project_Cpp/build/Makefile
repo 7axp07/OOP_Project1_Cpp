@@ -369,6 +369,30 @@ Sheep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.s
 .PHONY : Sheep.cpp.s
 
+Turtle.o: Turtle.cpp.o
+.PHONY : Turtle.o
+
+# target to build an object file
+Turtle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Turtle.cpp.o
+.PHONY : Turtle.cpp.o
+
+Turtle.i: Turtle.cpp.i
+.PHONY : Turtle.i
+
+# target to preprocess a source file
+Turtle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Turtle.cpp.i
+.PHONY : Turtle.cpp.i
+
+Turtle.s: Turtle.cpp.s
+.PHONY : Turtle.s
+
+# target to generate assembly for a file
+Turtle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Turtle.cpp.s
+.PHONY : Turtle.cpp.s
+
 Wolf.o: Wolf.cpp.o
 .PHONY : Wolf.o
 
@@ -504,6 +528,9 @@ help:
 	@echo "... Sheep.o"
 	@echo "... Sheep.i"
 	@echo "... Sheep.s"
+	@echo "... Turtle.o"
+	@echo "... Turtle.i"
+	@echo "... Turtle.s"
 	@echo "... Wolf.o"
 	@echo "... Wolf.i"
 	@echo "... Wolf.s"

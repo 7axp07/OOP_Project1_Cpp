@@ -120,6 +120,13 @@ void Organism::increaseStrength(int value) {
     strength += value;
 }
 
+void Organism::goBack() {
+    if (prevPosition.first != -1 && prevPosition.second != -1) {
+        position = prevPosition;
+        world->addLog(this, "moved back to " + to_string(prevPosition.first) + "," + to_string(prevPosition.second));
+    }
+}
+
 void Organism::kill() {
    position = { -1, -1 };
    strength = -1;
