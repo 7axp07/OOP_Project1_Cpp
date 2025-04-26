@@ -10,6 +10,7 @@
 #include "Fox.h"
 #include "Antylopa.h"
 #include "Turtle.h"
+#include "Human.h"
 
 #include <iostream>
 #include <ncurses.h>
@@ -21,7 +22,7 @@ World::World() : width(20), height(10), window(nullptr), statusWindow(nullptr), 
     noecho();
     curs_set(0);
     allocateGrid(); 
-    clearGrid();   
+    clearGrid();  
 
     window = newwin(height + 2, width + 2, 0, 0); 
     statusWindow = newwin(10, 50, height + 2, 0); 
@@ -52,7 +53,7 @@ void World::initializeColors() {
     init_pair(2, COLOR_GREEN, COLOR_BLACK);
     init_pair(3, COLOR_YELLOW, COLOR_BLACK);
     init_pair(4, COLOR_BLUE, COLOR_BLACK);
-    init_pair(5, COLOR_CYAN, COLOR_BLACK);
+    init_pair(5, COLOR_CYAN, COLOR_MAGENTA);
     init_pair(6, COLOR_MAGENTA, COLOR_BLACK);
     init_pair(7, COLOR_WHITE, COLOR_BLACK);
     init_pair(8, COLOR_BLACK, COLOR_WHITE);
@@ -65,9 +66,9 @@ void World::startScreen() {
     WINDOW* startWin = newwin(100, 50, 0, 0);
 
     mvwprintw(startWin, 1, 1, "Simulation game :)");
-    mvwprintw(startWin, 2, 1, "- Arrow keys to move Human");
+    mvwprintw(startWin, 2, 1, "- WASD to move Human");
     mvwprintw(startWin, 3, 1, "- 'p' to quit");
-    mvwprintw(startWin, 4, 1, "- 'e' for ability");
+    mvwprintw(startWin, 4, 1, "- 'q' for ability");
     mvwprintw(startWin, 5, 1, "- Enter for next turn");
 
     mvwprintw(startWin, 7, 1, "Enter world width (5-40): ");
@@ -130,7 +131,7 @@ void World::clearGrid() {
 void World::clearLog() {
     werase(statusWindow);
     mvwprintw(statusWindow, 1, 1, "Author: AP, Index: 203194");
-    mvwprintw(statusWindow, 2, 1, "^ v < > - Move, P - Quit, Enter - Next Turn");
+    mvwprintw(statusWindow, 2, 1, "WASD - Move, P - Quit, Enter - Next Turn");
     mvwprintw(statusWindow, 3, 1, "Turn: %d", turn); 
     logCount = 0;
     wrefresh(statusWindow);
@@ -185,7 +186,11 @@ void World::drawWorld() {
         int x = organism->getX();
         int y = organism->getY();
         if (x >= 0 && x < width && y >= 0 && y < height) {
-            grid[y][x] = organism->getSymbol();
+            if (dynamic_cast<Animal*>(organism)) {
+                grid[y][x] = organism->getSymbol();
+            } else if (grid[y][x] == ' ' || dynamic_cast<Plant*>(getOrganismAt({x, y}))) {
+                grid[y][x] = organism->getSymbol();
+            }
         }
     }
 
@@ -240,15 +245,23 @@ void World::removeOrganism(Organism* organism) {
     organisms.remove(organism); 
 }
 
+Human* World::getHuman(){
+    return human;
+}
+
 void World::initialPopulate() {
 
-    new Antylopa(rand()% width, rand()% height);
-    new Fox(rand()% width, rand()% height);
     new Grass(rand()% width, rand()% height);
-    new Turtle(rand()% width, rand()% height);
+    new Grass(rand()% width, rand()% height);
+    new Grass(rand()% width, rand()% height);
+    new Grass(rand()% width, rand()% height);
+    human = new Human(rand()% width, rand()% height);
     new Dandelion(rand()% width, rand()% height);
-    new Guarana(rand()% width, rand()% height);
-    new Wolf(rand()% width, rand()% height);
-    new Sheep(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+    new Dandelion(rand()% width, rand()% height);
+
 
 }

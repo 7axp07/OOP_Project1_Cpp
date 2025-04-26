@@ -6,4 +6,5 @@ class Grass : public Plant {
   Grass(int x, int y);
   Organism* child();
   virtual int getColor();
+  //void collision(Organism* other);
 };

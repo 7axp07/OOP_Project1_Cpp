@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Grass.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Grass.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Guarana.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Hogweed.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o.d"
+  "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Human.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Organism.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Plant.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o.d"
   "/home/axp707/Documents/II-sem/OOP/Projects/Project_Cpp/OOP_Project_Cpp/Sheep.cpp" "CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.o" "gcc" "CMakeFiles/OOP_Project_Cpp.dir/Sheep.cpp.o.d"

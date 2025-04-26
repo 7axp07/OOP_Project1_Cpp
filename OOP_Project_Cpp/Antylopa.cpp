@@ -14,9 +14,12 @@ Organism* Antylopa::child() {
 void Antylopa::action() {
     increaseAge();
     int mv = rand() % 16;
-    while (!setPosition({ getX() + movement[mv][0], getY() + movement[mv][1] }, false)) {
-        mv++;
-        mv %= 16;
+    for (int i = 0; i < 2; i++){
+        int mv = rand() % 8;
+        while (!setPosition({ getX() + movement[mv][0], getY() + movement[mv][1] }, false)) {
+            mv++;
+            mv %= 8;
+        }
     }
 }
 

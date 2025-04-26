@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/OOP_Project_Cpp.dir/Guarana.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o"
   "CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.o.d"
+  "CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.o"
+  "CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o"
   "CMakeFiles/OOP_Project_Cpp.dir/Organism.cpp.o.d"
   "CMakeFiles/OOP_Project_Cpp.dir/Plant.cpp.o"

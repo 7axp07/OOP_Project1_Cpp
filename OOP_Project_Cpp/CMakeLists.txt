@@ -23,6 +23,7 @@ add_executable(OOP_Project_Cpp
     Fox.cpp
     Antylopa.cpp
     Turtle.cpp
+    Human.cpp 
 )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

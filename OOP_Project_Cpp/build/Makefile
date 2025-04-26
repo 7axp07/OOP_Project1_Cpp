@@ -297,6 +297,30 @@ Hogweed.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Hogweed.cpp.s
 .PHONY : Hogweed.cpp.s
 
+Human.o: Human.cpp.o
+.PHONY : Human.o
+
+# target to build an object file
+Human.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.o
+.PHONY : Human.cpp.o
+
+Human.i: Human.cpp.i
+.PHONY : Human.i
+
+# target to preprocess a source file
+Human.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.i
+.PHONY : Human.cpp.i
+
+Human.s: Human.cpp.s
+.PHONY : Human.s
+
+# target to generate assembly for a file
+Human.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Project_Cpp.dir/build.make CMakeFiles/OOP_Project_Cpp.dir/Human.cpp.s
+.PHONY : Human.cpp.s
+
 Organism.o: Organism.cpp.o
 .PHONY : Organism.o
 
@@ -519,6 +543,9 @@ help:
 	@echo "... Hogweed.o"
 	@echo "... Hogweed.i"
 	@echo "... Hogweed.s"
+	@echo "... Human.o"
+	@echo "... Human.i"
+	@echo "... Human.s"
 	@echo "... Organism.o"
 	@echo "... Organism.i"
 	@echo "... Organism.s"

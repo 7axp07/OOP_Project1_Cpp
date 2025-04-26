@@ -6,6 +6,7 @@
 #include <string>
 #include <ncurses.h>
 #include "Organism.h"
+#include "Human.h"
 using namespace std;
 
 class World {
@@ -19,6 +20,7 @@ private:
     static World* instance;
     int logCount;
     int turn;
+    Human* human;
 
     void allocateGrid();
     void deallocateGrid();
@@ -48,6 +50,7 @@ public:
     int getHeight();
     Organism* getOrganismAt(pair<int, int> pos);
     void removeOrganism(Organism* organism);
+    Human* getHuman();
 };
 
 #endif // WORLD_H

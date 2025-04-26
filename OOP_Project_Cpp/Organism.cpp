@@ -34,7 +34,7 @@ int Organism::priority(Organism* a, Organism* b) {
         return 1;
     }
     else if (a->getInitiative() < b->getInitiative()) {
-        return -0;
+        return 0;
     }
     else {
         if (a->age > b->age) {

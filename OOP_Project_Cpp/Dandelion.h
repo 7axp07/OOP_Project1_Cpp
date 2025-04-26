@@ -7,4 +7,5 @@ public:
     void action();
     Organism* child();
     int getColor();
+   // void collision(Organism* other);
 };
